@@ -21,7 +21,6 @@ public class Main {
     public void writePersons(String filename) {
 
         ObjectOutputStream outputStream = null;
-
         try {
 
             // Construct the LineNumberReader object
