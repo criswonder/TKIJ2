@@ -50,5 +50,7 @@ public class TestStringFormat {
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
+        String   str = String.format("%.2f ",4545.421111);
+        System.out.println(str);
     }
 }
